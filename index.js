@@ -1,8 +1,8 @@
 const App = require('./framework/app');
 const bodyParser = require('./framework/bodyParser');
 
-const actorsRoutes = require('./framework/api-ivan/routes/routes.actors');
-const showsRoutes = require('./framework/api-ivan/routes/routes.show');
+const actorsRoutes = require('./api-ivan/routes/routes.actors');
+const showsRoutes = require('./api-ivan/routes/routes.show');
 
 const app = new App();
 
