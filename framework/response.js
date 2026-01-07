@@ -25,4 +25,3 @@ module.exports = function enhanceResponse(res)
         res.end(JSON.stringify(data));
     };
 };
-

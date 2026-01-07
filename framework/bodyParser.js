@@ -4,7 +4,6 @@ module.exports = function bodyParser(req , res,next)
     {
         return next();
     }
-
     let body ='';
 
     req.on('data',chunk => {
@@ -20,7 +19,6 @@ module.exports = function bodyParser(req , res,next)
         {
             req.body = {};
         }
-
         next();
     })
 

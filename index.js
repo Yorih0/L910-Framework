@@ -1,31 +1,16 @@
 const App = require('./framework/app');
 const bodyParser = require('./framework/bodyParser');
 
+const actorsRoutes = require('./framework/api-ivan/routes/routes.actors');
+const showsRoutes = require('./framework/api-ivan/routes/routes.show');
+
 const app = new App();
 
 app.use(bodyParser);
 
-app.use((req,res,next) => {
-  console.log(`[${req.method}]:${req.url}`);
-  next();
-});
-
-
-app.get('/hello', (req, res) => {
-  res.status(200).json({
-    message: 'Hello!',
-    query: req.query
-  });
-});
-
-app.post('/data', (req, res) => {
-  res.json({
-    message: 'Data received',
-    body: req.body
-  });
-});
-
+actorsRoutes(app);
+showsRoutes(app);
 
 app.listen(3000, () => {
-  console.log('Server started http://127.0.0.1:3000');
+	console.log('Server started http://127.0.0.1:3000');
 });

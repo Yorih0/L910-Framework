@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Ужасы африки",
+    "durationMinutes": 120,
+    "isActive": true,
+    "date": "2026-01-15",
+    "performers": [
+      "Абдул Ахмяк",
+      "Гипард Пушок",
+      "Носорог Камень"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ужасы америки",
+    "durationMinutes": 200,
+    "isActive": true,
+    "date": "2026-01-12",
+    "performers": [
+      "Абдул Ахмяк",
+      "Гипард Пушок",
+      "Кот Камень"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "fffамерики",
+    "durationMinutes": 300,
+    "isActive": false,
+    "date": "2022-01-12",
+    "performers": [
+      "Абдул Ахмяк",
+      "Гипард Пушок",
+      "Кот Камень"
+    ]
+  }
+]
