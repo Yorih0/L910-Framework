@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Кирилл Королёв",
+        "age": 28,
+        "isProfessional": true,
+        "membershipStartDate": "2020-06-15",
+        "specializations": ["Тяжелая атлетика", "Кроссфит", "Пауэрлифтинг","#Груша Упала"]
+    }
+]
