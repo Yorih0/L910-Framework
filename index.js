@@ -11,6 +11,12 @@ app.use(bodyParser);
 actorsRoutes(app);
 showsRoutes(app);
 
+const philosophersRoutes = require('./api-arseniy/routes/routes.philosofer');
+const schoolsRoutes = require('./api-arseniy/routes/routes.schools');
+
+philosophersRoutes(app);
+schoolsRoutes(app);
+
 app.listen(3000, () => {
 	console.log('Server started http://127.0.0.1:3000');
 });
